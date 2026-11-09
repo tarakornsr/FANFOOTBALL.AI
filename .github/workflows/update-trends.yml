@@ -1,0 +1,39 @@
+name: 🤖 Auto-Update Football Trends & Insights
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: pip install google-generativeai requests
+
+      - name: 🔍 Run trend update script
+        env:
+          GOOGLE_GEMINI_API_KEY: ${{ secrets.GOOGLE_GEMINI_API_KEY }}
+        run: python scripts/update_trends.py
+
+      - name: 🚀 Commit and push changes
+        run: |
+          git config --global user.name "Claude AI Bot"
+          git config --global user.email "automation@claude.ai"
+          git add data/trends.json data/insights.json
+          MONTH=$(date +"%B %Y")
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Auto-update: Football trends & insights - $MONTH"
+            git push
+          fi
