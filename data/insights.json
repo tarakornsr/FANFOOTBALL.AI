@@ -48,28 +48,27 @@
     "icon": "🍺"
   },
   {
-    "opportunity": "แบรนด์เทคโนโลยี (TV, Smartphone, Streaming)",
+    "opportunity": "แฟชั่นกีฬา & รองเท้า",
     "stats": [
-      "มีข่าวเกี่ยวกับการดูบอลออนไลน์",
       "เดือนพฤศจิกายน 2026",
-      "Streaming Platform กำลังได้รับความนิยม",
-      "แฟนบอลดูผ่านมือถือมากขึ้น"
+      "ช่วงเปิดตัวชุดแข่งใหม่",
+      "ความสนใจเสื้อบอลเพิ่มขึ้น",
+      "Gen Z ซื้อเสื้อบอลเป็น Lifestyle"
     ],
-    "reasoning": "จากข่าวที่ดึงมาพบว่ามีการพูดถึงการดูบอลออนไลน์และ Streaming Platform ซึ่งแสดงว่าแฟนบอลกำลังเปลี่ยนพฤติกรรมจากดูทาง TV มาสู่ Multi-screen และ On-demand มากขึ้น",
-    "analysis": "แฟนบอลยุคใหม่ต้องการความยืดหยุ่น — ดูที่ไหนก็ได้ เวลาไหนก็ได้ ทำให้การดูผ่านมือถือและ Smart TV เพิ่มขึ้น แต่หลายคนยังใช้อุปกรณ์เก่าที่ไม่ Support Streaming คุณภาพสูง จึงเป็นโอกาสสำหรับแบรนด์เทคโนโลยีที่จะ Push Upgrade Cycle ในช่วงฤดูกาลฟุตบอล",
+    "reasoning": "ช่วงพฤศจิกายน 2026 เป็นช่วงที่มีการแข่งขันสำคัญ ทำให้ความสนใจในเสื้อบอลและสินค้ากีฬาเพิ่มขึ้น โดยเฉพาะกลุ่ม Gen Z ที่ใส่เสื้อบอลเป็น Street Fashion",
+    "analysis": "พฤติกรรมการซื้อเสื้อบอลเปลี่ยนไป ไม่ใช่แค่แฟนบอลตัวจริง แต่รวมถึง Gen Z ที่ใส่เสื้อบอลเป็น Lifestyle โดยซื้อผ่าน Online มากกว่าร้านกีฬา และชอบ Replica เพราะราคาถูกกว่า — Opportunity คือขยายฐานลูกค้าจากแฟนบอลไปสู่ Fashion-conscious Youth",
     "target_clients": [
-      "Samsung",
-      "LG",
-      "Sony",
-      "True",
-      "AIS",
-      "dtac",
+      "Adidas",
+      "Nike",
+      "Puma",
+      "Warrix",
+      "Grand Sport",
       "Shopee",
       "Lazada",
-      "Apple",
-      "Xiaomi"
+      "Central Sports",
+      "Supersports"
     ],
-    "pitch_angle": "สปอนเซอร์ช่องถ่ายทอดสด + 'Watch & Win' Campaign ดูบอลครบ X นัด ลุ้น Smart TV หรือ iPhone + Half-time Flash Sale ลดสินค้าเทคโนโลยี 50% นาน 15 นาที",
-    "icon": "📱"
+    "pitch_angle": "แคมเปญ 'Beyond the Game' — Lookbook '10 Ways to Style Your Jersey' โดย Fashion Influencer + Limited Edition Collaboration กับ Streetwear Brand ไทย",
+    "icon": "👕"
   }
 ]
